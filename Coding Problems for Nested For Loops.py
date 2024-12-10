@@ -155,11 +155,11 @@ for row in range(len(list1)):
 # Example: For [[1, 2], [3, 4], [5, 6]], the sum is 21.
 # Hint : You will need to initialise the sum variable carefully. Where will you initialise it? Outside both loops or inside one of them?
 
-list1=[[1, 2], [3, 4]]
-sum=0
+""" list1=[[1, 2], [3, 6]]
+# sum=0
 for row in range(len(list1)):
     # sum=0  yha kroge tab last wala list sum hoga sirf 😊
     for col in range(len(list1)):
         x=(list1[row][col])
         sum+=x
-print(sum)
+print(sum) """
