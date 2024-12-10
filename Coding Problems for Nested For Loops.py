@@ -84,3 +84,21 @@ for row in range(1, N+1):  # Rows from 1 to N
     for col in range(1, M+1):  # Columns from 1 to N
         print(f"{row + col:5}", end='')  # Product of row and column indices, formatted for alignment , 5 spaces after each number
     print('') """
+
+#Q8. Print a multiplication table for numbers 1 to 10 using nested loops.
+# Hint: Use an outer loop for rows (numbers 1–10) and an inner loop for columns (1–10).
+
+""" for row in range(1,11):
+    for col in range(1,11):
+        print(f'{row*col:4}',end='')
+    print('') """
+
+#Q9. Given a list of lists, print all the numbers one by one.
+# Example: For [[1, 5], [7, 4], [5, 9]], the output should be:
+# 1
+# 5
+# 7
+# 4
+# 5
+# 9
+
