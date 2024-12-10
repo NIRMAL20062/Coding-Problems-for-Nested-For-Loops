@@ -54,8 +54,26 @@ for row in range(1,n+1):
 1234
 12345
 
-for row in range(5):
+""" for row in range(5):
     for col in range(1,row+1):
         print(col ,end='')
-    print('')
+    print('') """
 
+#Q6. Generate a 5x5 matrix where each cell contains the product of its row and column indices. So the cell on 3rd row and 4th column will have 12.
+# Variation : Generalise this to any NxN matrix and take N as input from the user.
+
+""" for row in range(1,5+1):
+    for col in range(1,5+1):
+        print([row*col],end='')
+    print('') """
+
+# Take the size of the matrix (N) as input from the user
+""" N = int(input("Enter the size of the matrix (N): "))
+
+# Generate the NxN matrix
+for row in range(1, N+1):  # Rows from 1 to N
+    for col in range(1, N+1):  # Columns from 1 to N
+        print(f"{row * col:5}", end='')  # Product of row and column indices, formatted for alignment , 5 spaces after each number
+    print('')  # Move to the next line after each row """
+
+#Q7. Generate an NxM matrix (user inputs N and M) where each cell contains the sum of its row and column indices.
