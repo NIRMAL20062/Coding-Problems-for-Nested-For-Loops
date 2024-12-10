@@ -105,3 +105,17 @@ for row in range(1, N+1):  # Rows from 1 to N
 for row in range(len(list1)):
     for col in range(len(list1[row])):
         print(list1[row][col]) """
+
+#Q10. Given a list of lists, print the squares of the numbers one by one.
+# Example: For [[1, 5], [7, 4], [5, 9]], the output should be:
+# 1
+# 25
+# 49
+# 16
+# 25
+# 81
+
+""" list1=[[1, 5], [7, 4], [5, 9]]
+for row in range(len(list1)):
+    for col in range(len(list1[row])):
+        print((list1[row][col])**(2)) """
