@@ -191,3 +191,38 @@ for row in range(len(list1)):
         if col%2==0:
             count+=1
     print(count) """
+
+#Q16. Given a list of lists, print the number of prime numbers in each individual list.
+# Example: For [[3, 6], [4, 10, 15], [8, 11, 13]], the output should be:
+# 1
+# 0
+# 2
+# Hint : Define another function to check if a given number is prime or not, and call this function from inside your loop.
+
+""" def is_prime(num):
+    if num < 2:
+        return False
+    for i in range(2, num):
+        if num % i == 0:
+            return False
+    return True
+
+list1=[[1, 2], [3, 6],[2,2,2,7]]
+for row in range(len(list1)):
+    count=0
+    for col in list1[row]:
+        if is_prime(col):
+            count+=1
+    print(count) """
+
+
+
+
+
+
+
+
+
+
+
+
