@@ -119,3 +119,14 @@ for row in range(len(list1)):
 for row in range(len(list1)):
     for col in range(len(list1[row])):
         print((list1[row][col])**(2)) """
+
+#Q11. Flatten a list of lists into a single list.
+# Example: Convert [[1, 2], [3, 4]] into [1, 2, 3, 4].
+
+""" list1=[[1, 2], [3, 4]]
+list2=[]
+for row in range(len(list1)):
+    for col in range(len(list1)):
+        x=(list1[row][col])  # Output: 1 2 3 4
+        list2.append(x)
+print(list2) """
