@@ -179,3 +179,15 @@ for row in range(len(list1)):
         sum+=x
     print(sum) """
 
+#Q15. Given a list of lists, print the number of even numbers in each individual list. 
+# Example: For [[1, 2], [3, 4, 10, 12], [8, 6]], the output should be:
+# 1
+# 3
+# 2
+""" list1=[[1, 2], [3, 6],[2,2,2,7]]
+for row in range(len(list1)):
+    count=0
+    for col in list1[row]:
+        if col%2==0:
+            count+=1
+    print(count) """
