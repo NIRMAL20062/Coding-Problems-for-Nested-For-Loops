@@ -101,7 +101,7 @@ for row in range(1, N+1):  # Rows from 1 to N
 # 4
 # 5
 # 9
-list1=[[1, 5], [7, 4], [5, 9]]
+""" list1=[[1, 5], [7, 4], [5, 9]]
 for row in range(len(list1)):
     for col in range(len(list1[row])):
-        
+        print(list1[row][col]) """
