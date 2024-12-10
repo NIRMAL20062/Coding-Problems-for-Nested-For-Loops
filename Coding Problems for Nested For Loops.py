@@ -77,3 +77,10 @@ for row in range(1, N+1):  # Rows from 1 to N
     print('')  # Move to the next line after each row """
 
 #Q7. Generate an NxM matrix (user inputs N and M) where each cell contains the sum of its row and column indices.
+
+""" N = int(input("Enter the size of the matrix (N): "))
+M=int(input("Enter the size of the matrix (M): "))
+for row in range(1, N+1):  # Rows from 1 to N
+    for col in range(1, M+1):  # Columns from 1 to N
+        print(f"{row + col:5}", end='')  # Product of row and column indices, formatted for alignment , 5 spaces after each number
+    print('') """
