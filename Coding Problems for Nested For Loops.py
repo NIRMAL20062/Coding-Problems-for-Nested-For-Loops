@@ -163,3 +163,19 @@ for row in range(len(list1)):
         x=(list1[row][col])
         sum+=x
 print(sum) """
+
+#Q14. Given a list of lists, find the sum of all elements of each individual list.
+# Example: For [[1, 2], [3, 4], [5, 6]], the output should be:
+# 3
+# 7
+# 11
+# Task : Carefully think about the difference between this and the previous problem, in terms of where to initialise the sum variable.
+
+""" list1=[[1, 2], [3, 6]]
+for row in range(len(list1)):
+    sum=0 # yha kroge tab last wala list sum hoga sirf 😊
+    for col in range(len(list1)):
+        x=(list1[row][col])
+        sum+=x
+    print(sum) """
+
