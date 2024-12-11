@@ -191,3 +191,81 @@ for row in range(len(list1)):
         if col%2==0:
             count+=1
     print(count) """
+
+#Q16. Given a list of lists, print the number of prime numbers in each individual list.
+# Example: For [[3, 6], [4, 10, 15], [8, 11, 13]], the output should be:
+# 1
+# 0
+# 2
+# Hint : Define another function to check if a given number is prime or not, and call this function from inside your loop.
+
+""" def is_prime(num):
+    if num < 2:
+        return False
+    for i in range(2, num):
+        if num % i == 0:
+            return False
+    return True
+
+list1=[[1, 2], [3, 6],[2,2,2,7]]
+for row in range(len(list1)):
+    count=0
+    for col in list1[row]:
+        if is_prime(col):
+            count+=1
+    print(count) """
+
+#Q17. Print all pairs of elements from two lists, e.g., [1, 2] and [3, 4].
+(1, 3)
+(1, 4)
+(2, 3)
+(2, 4)
+
+""" list1=[1,2]
+list2=[3,4]
+for i in range(len(list1)):
+    for j in range(len(list2)):
+        print((list1[i],list2[j])) """
+
+
+#Q18. Print the product of all pairs of elements from two lists, e.g., [1, 2] and [3, 4].
+3
+4
+6
+8
+""" list1=[1,2]
+list2=[3,4]
+for i in range(len(list1)):
+    for j in range(len(list2)):
+        print((list1[i]*list2[j])) """
+
+
+#Q19. Given two lists containing unique elements, count how many elements from the first list appear in the second list.
+# Example Input: [1, 2, 3] and [2, 3, 4].
+# Output: 2 (since 2 and 3 are common).
+
+""" list1=[1,2,3]
+list2=[2,3,4]
+count=0
+for ele in list1:
+    for ele1 in list2:
+        if ele==ele1:
+            count+=1
+print(count) """
+
+
+#Q20. Given a list of lists, find the maximum value in each individual list.
+# Example: For [[1, 2], [3, 4, 5], [6]], the output should be:
+2
+5
+6
+
+""" list1=[[1, 2], [3, 4, 5], [6]]
+for row in list1:
+    print(max(row)) """
+
+#Q21.  Given a 3x3 matrix, print its transpose.
+
+# Example Input: [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+matrix=[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+
