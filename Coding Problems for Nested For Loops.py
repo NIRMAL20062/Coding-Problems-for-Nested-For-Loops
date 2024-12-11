@@ -233,16 +233,24 @@ for i in range(len(list1)):
 4
 6
 8
-list1=[1,2]
+""" list1=[1,2]
 list2=[3,4]
 for i in range(len(list1)):
     for j in range(len(list2)):
-        print((list1[i]*list2[j]))
+        print((list1[i]*list2[j])) """
 
 
+#Q19. Given two lists containing unique elements, count how many elements from the first list appear in the second list.
+# Example Input: [1, 2, 3] and [2, 3, 4].
+# Output: 2 (since 2 and 3 are common).
 
-
-
-
+""" list1=[1,2,3]
+list2=[2,3,4]
+count=0
+for ele in list1:
+    for ele1 in list2:
+        if ele==ele1:
+            count+=1
+print(count) """
 
 
