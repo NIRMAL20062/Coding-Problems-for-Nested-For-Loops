@@ -254,3 +254,18 @@ for ele in list1:
 print(count) """
 
 
+#Q20. Given a list of lists, find the maximum value in each individual list.
+# Example: For [[1, 2], [3, 4, 5], [6]], the output should be:
+2
+5
+6
+
+""" list1=[[1, 2], [3, 4, 5], [6]]
+for row in list1:
+    print(max(row)) """
+
+#Q21.  Given a 3x3 matrix, print its transpose.
+
+# Example Input: [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+matrix=[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+
