@@ -215,9 +215,29 @@ for row in range(len(list1)):
             count+=1
     print(count) """
 
+#Q17. Print all pairs of elements from two lists, e.g., [1, 2] and [3, 4].
+(1, 3)
+(1, 4)
+(2, 3)
+(2, 4)
+
+""" list1=[1,2]
+list2=[3,4]
+for i in range(len(list1)):
+    for j in range(len(list2)):
+        print((list1[i],list2[j])) """
 
 
-
+#Q18. Print the product of all pairs of elements from two lists, e.g., [1, 2] and [3, 4].
+3
+4
+6
+8
+list1=[1,2]
+list2=[3,4]
+for i in range(len(list1)):
+    for j in range(len(list2)):
+        print((list1[i]*list2[j]))
 
 
 
